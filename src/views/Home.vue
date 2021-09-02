@@ -1,18 +1,26 @@
-<template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
-</template>
+<!--
+ * @Author: Drazy
+ * @Date: 2021-09-01 16:23:32
+ * @LastEditors: Drazy
+ * @LastEditTime: 2021-09-01 18:00:32
+ * @Description: 封装的组件
+-->
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
-export default {
-  name: "Home",
-  components: {
-    HelloWorld,
+import { defineComponent, onMounted } from "@vue/composition-api";
+export default defineComponent({
+  setup() {
+    onMounted(() => {
+      console.log("mounted");
+    });
   },
-};
+  render() {
+    return (
+      <div>
+        <div>123</div>
+        
+      </div>
+    );
+  },
+});
 </script>

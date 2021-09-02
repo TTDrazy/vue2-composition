@@ -1,9 +1,16 @@
+<!--
+ * @Author: Drazy
+ * @Date: 2021-09-01 16:23:32
+ * @LastEditors: 最后编辑者
+ * @LastEditTime: 2021-09-01 16:29:41
+ * @Description: 
+-->
 <template>
   <div id="app">
-    <div id="nav">
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
-    </div>
+    </div> -->
     <router-view />
   </div>
 </template>
